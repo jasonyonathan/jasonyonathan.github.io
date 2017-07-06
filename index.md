@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Jason Yonathan Huang
+
+Hi :)
 
 You can use the [editor on GitHub](https://github.com/jasonyonathan/jasonyonathan.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -23,7 +25,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](url) and ![Image](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwj7zdXF9PPUAhUIRo8KHVdxDP0QjRwIBw&url=https%3A%2F%2Fwww.flooringvillage.co.uk%2Frequest-a-sample-547-p.asp&psig=AFQjCNExN8vyN-Pom86AeFI3ujqDgCsI9w&ust=1499404864488120)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
