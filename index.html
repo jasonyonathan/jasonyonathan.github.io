@@ -116,7 +116,8 @@
               <h3>Who am I ?</h3>
               <p>Currently I am a student at SMAK 1 BPK PENABUR Jakarta which is called by a lot of people as one of the best or maybe the best (if i am not mistaken :/) high school in
 							Jakarta or maybe in Indonesia (If i'm not mistaken again). My biggest passion in my life is in programming and technology. I have learned programming since i was 10 and I've fell
-						  in love with computer since i was 5. I've created a lot of projects and app since then and I also have certification on C# Programming (70-483 exam by Microsoft) that makes me a Microsoft Certified Professional</p>
+              in love with computer since i was 5. I've created a lot of projects and app since then and I also have certification on C# Programming (70-483 exam by Microsoft) that makes me a Microsoft Certified Professional.
+              More info about my certification can be accessed <a href="http://www.mycertprofile.com/Profile/7322450551" target="_blank">here</a></p>
             </div>
 
             <div class="short-info wow fadeInUp">
@@ -478,7 +479,7 @@
           <div class="col-md-6">
             <div class="contact-form">
               <strong>Send me a message</strong>
-              <form name="contact-form" id="contactForm" action="https://formspree.io/jasonyonathan@live.com" method="POST">
+              <form method="POST" action="https://formspree.io/jasonyonathan@live.com">
 
                 <div class="form-group">
                   <label for="name">Name</label>
@@ -487,23 +488,25 @@
 
                 <div class="form-group">
                   <label for="email">Email</label>
-                  <input type="email" name="email" class="form-control" id="email" required="" placeholder="Your E-mail">
+                  <input type="email" name="email" placeholder="Your email" class="form-control">
                 </div>
 
                 <div class="form-group">
                   <label for="subject">Subject</label>
-                  <input type="text" name="subject" class="form-control" id="subject" placeholder="Mail Subject">
+                  <input type="subject" name="_subject" placeholder="Subject" class="form-control"/>
                 </div>
 
                 <div class="form-group">
                   <label for="message">Message</label>
-                  <textarea name="message" class="form-control" id="message" rows="5" required="" placeholder="Type your message here :)"></textarea>
+                  <textarea name="message" placeholder="Your message" class="form-control"></textarea>
                 </div>
 
-                <button type="submit" name="submit" class="btn btn-primary">Send Message</button>
+                <button type="submit" class="btn btn-primary">Send</button>
+
+                <input type="text" name="_gotcha" style="display:none" />
               </form>
-            </div><!-- /.contact-form -->
-          </div><!-- /.col-md-6 -->
+            </div>
+          </div>
 
           <div class="col-md-6">
             <div class="row center-xs">
